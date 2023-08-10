@@ -1,5 +1,12 @@
 #NavbarContainer{
-    background-color: #6528F7;
-    color: rgb(254, 254, 254);
-    
+    background-color: #7b65c1;
+    color: rgb(254, 254, 254);   
+}
+.ULNavbar{
+    display:flex;
+    list-style: none;
+    padding: 10px 15px;
+}
+.ULNavbar li{
+    padding: 7px 12px;
 }
