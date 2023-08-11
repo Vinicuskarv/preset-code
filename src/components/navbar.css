@@ -2,10 +2,23 @@
     background-color: #7b65c1;
     color: rgb(254, 254, 254);   
 }
+#NavbarContainer .container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
 .ULNavbar{
     display:flex;
     list-style: none;
     padding: 10px 15px;
+}
+.ULNavbar img{
+    width: 50px;
+    height: 50px;
+    padding: 10px 10px;
+}
+.ULNavbar{
+    margin: 0;
 }
 .ULNavbar li{
     padding: 7px 12px;
