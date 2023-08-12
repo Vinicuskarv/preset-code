@@ -1,7 +1,8 @@
 import github from './icons/icons8-github-50.png';
 import email from './icons/icons8-email-50.png';
 import linkedin from './icons/icons8-linkedin-50.png';
-
+import cardBoardWhite from './icons/icons8-cardboard-box-50-white.png';
+ 
 import './navbar.css';
 
 function NavBar() {
@@ -14,6 +15,7 @@ function NavBar() {
                 <li>ANIMATIONS</li>
                 <li>CONTACTO</li>
             </ul>
+            <img src={cardBoardWhite} alt="box White"/>
             <div className="ULNavbar">
               <a href="https://www.linkedin.com/in/vinicius-carvalho-lucius/">
                 <img src={linkedin} alt="icon linkedin"/>
