@@ -1,10 +1,11 @@
 import NavBar from '../../components/navbar';
-import './Header.css'
+import Header from './Header';
 
 function Home() {
   return (
     <header class="HeaderHome">
       <NavBar/>
+      <Header/>
     </header>
   );
 }
