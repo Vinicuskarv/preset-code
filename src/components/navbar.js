@@ -10,7 +10,7 @@ function NavBar() {
         <div className="container">
             <ul className="ULNavbar">
                 <li>HOME</li>
-                <li>EXAMPLES</li>
+                <li>ABOUT</li>
                 <li>ANIMATIONS</li>
                 <li>CONTACTO</li>
             </ul>
