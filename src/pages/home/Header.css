@@ -9,6 +9,11 @@
     height: 100% ;
     padding: 70px 0;
 }
+.headercontainerTerciario{
+    background-color: rgb(171, 171, 181);
+    height: 100% ;
+    padding: 50px 0;
+}
 .CampoUndraw img{
     width: 100%;
 }
@@ -32,4 +37,29 @@
 .ButtomStyle:hover{
     color: rgb(255, 255, 255);
     opacity: 50%;
+}
+.CampoUndraw{
+    margin: auto;
+    margin-top: 20px;
+}
+.undraw_booked{
+    margin: auto;
+    margin-top: 0;
+}
+.undraw_booked img{
+    width: 100%;
+}
+.CampoText{
+    box-shadow: -1px -1px 15px rgba(0, 0, 0, 0.1),1px 1px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 30px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+@media screen and (max-width:470px){
+    .CampoUndraw{
+        margin-top: 50px;
+    }
 }

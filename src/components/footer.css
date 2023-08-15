@@ -1,0 +1,12 @@
+.ContainerFooter{
+    background-color: rgb(55, 55, 90);
+    color: rgb(255, 255, 255);
+    padding: 50px 0;
+}
+.campoFooter{
+    display: flex;
+    justify-content: center
+}
+.campoFooter a:hover{
+    opacity: 70%;
+}

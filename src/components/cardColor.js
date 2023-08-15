@@ -15,16 +15,13 @@ function CardColor() {
         { start: "#1ABC9C", end: "#3498DB" },
         { start: "#C0392B", end: "#2980B9" },
         { start: "#F39C12", end: "#8E44AD" }
-      ];
-  
+      ]; 
     const [colors, setColors] = useState(initialColors);
-  
     const handleColorChange = (index, property, value) => {
       const newColors = [...colors];
       newColors[index] = { ...newColors[index], [property]: value };
       setColors(newColors);
     };
-  
     const GradientBox = ({ start, end, index }) => (
         <div className='col-6 col-md-4 col-lg-3'>
             <div className="gradient-box" style={{ background: `linear-gradient(to right, ${start}, ${end})` }}>
@@ -36,10 +33,7 @@ function CardColor() {
                 <div>End: {end}</div>
             </div>
         </div>
-    
-      
     );
-  
     return (
       <>
         <h1 className='h1CampoColor'>Presert Colors</h1>

@@ -12,12 +12,7 @@
     list-style: none;
     padding: 10px 15px;
 }
-.ULNavbar img{
-    width: 45px;
-    height: 45px;
-    padding: 10px 10px;
-}
-.ULNavbar img:hover,.ULNavbar li a:hover, .LogoIcon:hover{
+.ULNavbar li a:hover, .LogoIcon:hover{
     opacity: 70%;
 }
 .ULNavbar{
@@ -27,4 +22,16 @@
     padding: 7px 24px 7px 0;
     color: rgb(249, 249, 249) ;
     text-decoration: none;
+}
+@media screen and (max-width:770px){
+    .LogoIcon{
+        display: none;
+    }
+}
+
+@media screen and (max-width:470px){
+    .ULNavbar li a{
+        padding: 7px 5px 7px 5px;
+        font-size: 11.5px;
+    }
 }
