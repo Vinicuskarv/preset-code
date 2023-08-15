@@ -1,6 +1,11 @@
 
-.headercontainer{
+.headercontainerPrimaria{
     background-color: rgb(234, 234, 235);
+    height: 100% ;
+    padding: 70px 0;
+}
+.headercontainerSegundario{
+    background-color: rgb(220, 220, 224);
     height: 100% ;
     padding: 70px 0;
 }
