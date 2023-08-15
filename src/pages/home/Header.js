@@ -33,8 +33,8 @@ function Header() {
             <div className='row'>
                 <div className='CampoText col-12 col-md-6'>
                     <p>
-                        Este website foi concebido com a finalidade primordial de aprimorar significativamente a eficiência
-                        no desenvolvimento de sites. Aqui, você encontrará funcionalidades pré-configuradas para agilizar o seu processo de entrega.
+                        This website was conceived with the primary purpose of significantly improving the efficiency
+                        in website development. Here, you will find pre-configured features to streamline your delivery process.
                     </p>
                 </div>
                 <div className='undraw_booked col-8 col-md-5'>

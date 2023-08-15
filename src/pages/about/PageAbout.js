@@ -1,9 +1,12 @@
 import NavBar from '../../components/navbar';
+import Header from './Header';
+import Footer from '../../components/footer';
 function About() {
   return (
     <heade>
       <NavBar/>
-      a
+      <Header/>
+      <Footer/>
     </heade>
   );
 }
