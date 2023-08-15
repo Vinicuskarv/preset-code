@@ -17,9 +17,14 @@
     height: 45px;
     padding: 10px 10px;
 }
+.ULNavbar img:hover,.ULNavbar li a:hover, .LogoIcon:hover{
+    opacity: 50%;
+}
 .ULNavbar{
     margin: 0;
 }
-.ULNavbar li{
+.ULNavbar li a{
     padding: 7px 24px 7px 0;
+    color: rgb(249, 249, 249) ;
+    text-decoration: none;
 }
