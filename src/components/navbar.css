@@ -23,8 +23,16 @@
     color: rgb(249, 249, 249) ;
     text-decoration: none;
 }
+.campoicon{
+    display: flex;
+}
 @media screen and (max-width:770px){
     .LogoIcon{
+        display: none;
+    }
+}
+@media screen and (max-width:660px){
+    .campoicon{
         display: none;
     }
 }

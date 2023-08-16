@@ -18,11 +18,14 @@ function NavBar() {
                   <Link to="/">ANIMATIONS</Link> 
                 </li>
                 <li>
-                  <Link to="/">CONTACTO</Link> 
+                  <Link to="/Contact">CONTACT</Link> 
                 </li>
             </ul>
-            <Link to="/"><img className="LogoIcon" src={cardBoardWhite} alt="box White"/></Link> 
-            <ContaineIcons/>
+            <Link to="/"><img className="LogoIcon" src={cardBoardWhite} alt="box White"/></Link>
+            <span className='campoicon'>
+              <ContaineIcons/>
+            </span>
+            
         </div>
     </div>
   );

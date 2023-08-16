@@ -6,8 +6,3 @@
     height: 45px;
     padding: 10px 10px;
 }
-@media screen and (max-width:680px){
-    .ULNavbaricons{
-        display: none;
-    }
-}
