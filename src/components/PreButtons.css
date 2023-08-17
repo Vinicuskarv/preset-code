@@ -1,0 +1,9 @@
+.EstiloPadrao{
+    background-color: rgb(83, 143, 143);
+    color: rgb(255, 255, 255);
+    border: none;
+    margin: 10px 0;
+    padding: 7px 12px;
+    border-radius: 3px;
+    font-size: 25px;
+}
