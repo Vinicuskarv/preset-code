@@ -9,11 +9,11 @@ function Header() {
         </div>
         <div className='CampoInfoContact'>
             <p>
-                Olá! Fiz este site com a intenção de aprimorar minhas habilidades em React. Se você notar alguma 
-                coisa que possa ser aperfeiçoada, por favor, entre em contato comigo por meio de uma das plataformas 
-                abaixo. Adoraria receber suas sugestões para que eu possa aprimorar e praticar ainda mais minhas 
-                habilidades com essa poderosa ferramenta. O seu feedback é extremamente valioso para mim. Vamos 
-                juntos tornar este projeto ainda melhor!
+                Hello! I made this site with the intention of improving my React skills. If you notice any
+                something that can be improved, please contact me through one of the platforms
+                below. I would love to receive your suggestions so that I can improve and practice my skills even more.
+                skills with this powerful tool. Your feedback is extremely valuable to me. Let's go
+                together make this project even better!
             </p>
             <ContaineIcons/>
         </div>
