@@ -1,9 +1,153 @@
-.EstiloPadrao{
-    background-color: rgb(83, 143, 143);
+.KitExple{
+    background-color: transparent;
+    box-shadow: -1px -1px 2px rgba(0, 0, 0, 0.1),1px 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    padding: 30px;
+    margin-top: 10px;
+}
+.Rounded button, .Radius button,.Squared button,.Corners button{
+    padding: 10px 15px;
+    margin-top: 15px;
+    border: 0;
+    font-size: 14px;
+    outline: none;
+}
+
+
+.Rounded button{
+    background-color: rgb(98, 183, 183);
     color: rgb(255, 255, 255);
-    border: none;
-    margin: 10px 0;
-    padding: 7px 12px;
-    border-radius: 3px;
-    font-size: 25px;
+    border-radius: 30px;
+}
+.Rounded #Rounded1{
+    background-color: transparent;
+    color:  rgb(98, 183, 183);
+    border: 1px solid rgb(98, 183, 183);
+}
+.Rounded #Rounded3:hover{
+    background-color: rgb(60, 152, 152);
+}
+.Rounded #Rounded4:focus{
+    background-color: rgb(60, 152, 152);
+}
+.Rounded #Rounded5{
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.562);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.Rounded #Rounded5:hover{
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.562);
+
+}
+.Rounded #Rounded5:active{
+    transform: translateY(4px);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.562);
+}
+.Rounded #Rounded6{
+    background-color: rgba(97, 97, 97, 0.363);
+    color: rgba(255, 255, 255, 0.671);
+}
+
+
+.Radius button{
+    background-color: rgb(231, 126, 167);
+    color: rgb(255, 255, 255);
+}
+.Radius #Radius1{
+    background-color: transparent;
+    color:  rgb(231, 126, 167);
+    border: 1px solid rgb(231, 126, 167);
+}
+.Radius #Radius3:hover{
+    background-color: rgb(204, 80, 127);
+}
+.Radius #Radius4:focus{
+    background-color: rgb(204, 80, 127);
+}
+.Radius #Radius5{
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.562);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.Radius #Radius5:hover{
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.562);
+
+}
+.Radius #Radius5:active{
+    transform: translateY(4px);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.562);
+}
+.Radius #Radius6{
+    background-color: rgba(97, 97, 97, 0.363);
+    color: rgba(255, 255, 255, 0.671);
+}
+
+
+.Squared button{
+    background-color: rgb(147, 107, 220);
+    color: rgb(255, 255, 255);
+}
+.Squared #Squared1{
+    background-color: transparent;
+    color:  rgb(147, 107, 220);
+    border: 1px solid rgb(147, 107, 220);
+}
+.Squared #Squared3:hover{
+    background-color: rgb(107, 63, 189);
+}
+.Squared #Squared4:focus{
+    background-color: rgb(107, 63, 189);
+}
+.Squared #Squared5{
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.562);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.Squared #Squared5:hover{
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.562);
+
+}
+.Squared #Squared5:active{
+    transform: translateY(4px);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.562);
+}
+.Squared #Squared6{
+    background-color: rgba(97, 97, 97, 0.363);
+    color: rgba(255, 255, 255, 0.671);
+}
+
+
+
+.Corners button{
+    background-color: rgb(168, 80, 180);
+    color: rgb(255, 255, 255);
+    border-radius: 15px 0;
+}
+.Corners #Corners1{
+    background-color: transparent;
+    color:  rgb(168, 80, 180);
+    border: 1px solid rgb(168, 80, 180);
+}
+.Corners #Corners3:hover{
+    background-color: rgb(139, 26, 154);
+}
+.Corners #Corners4:focus{
+    background-color: rgb(139, 26, 154);
+}
+.Corners #Corners5{
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.562);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.Corners #Corners5:hover{
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.562);
+
+}
+.Corners #Corners5:active{
+    transform: translateY(4px);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.562);
+}
+.Corners #Corners6{
+    background-color: rgba(97, 97, 97, 0.363);
+    color: rgba(255, 255, 255, 0.671);
 }
