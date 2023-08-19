@@ -9,16 +9,17 @@ function CampoButton() {
           <div className='KitExple'>
             <div className='d-flex'>
                 <h4>Rounded Buttons</h4>
-                <ButtonSearch/>
+                <ButtonSearch
+                    Id="Rounded1"
+                    HTML="Rounded1"
+                />
             </div>
-            
             <div className='row Rounded'>
             <PreButtons
                 Value= "OUTLINE"
                 Descricao= "OUTLINE"
                 Id = "Rounded1"
             />
-            
             <PreButtons
                 Value= "NORMAL"
                 Descricao="NORMAL"
@@ -49,7 +50,10 @@ function CampoButton() {
           <div className='KitExple'>
             <div className='d-flex'>
                 <h4>Radius Buttons</h4>
-                <ButtonSearch/>
+                <ButtonSearch
+                    Id = "Radius1"
+                    HTML="Radius1"
+                />
             </div>
             <div className='row Radius'>
             <PreButtons
@@ -88,7 +92,10 @@ function CampoButton() {
             
             <div className='d-flex'>
                 <h4>Squared Buttons</h4>
-                <ButtonSearch/>
+                <ButtonSearch
+                    Id="Squared1"
+                    HTML="Squared1"
+                />
             </div>
             <div className='row Squared'>
             <PreButtons
@@ -126,7 +133,10 @@ function CampoButton() {
           <div className='KitExple'>          
             <div className='d-flex'>
                 <h4>Squared With Rounded Corners Buttons</h4>
-                <ButtonSearch/>
+                <ButtonSearch
+                    Id = "Corners1"
+                    HTML="Corners1"
+                />
             </div>
             <div className='row Corners'>
             <PreButtons

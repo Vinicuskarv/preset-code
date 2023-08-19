@@ -30,3 +30,20 @@
         transform: rotate(0deg);
     }
 }
+/* CentralizedDiv.css */
+.button-search {
+    border: none;
+    cursor: pointer;
+  }
+  
+  .centered-div {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
