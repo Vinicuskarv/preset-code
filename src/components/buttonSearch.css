@@ -1,0 +1,32 @@
+.ButtonSearch img{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.ButtonSearch img:hover{
+    animation: rotate 2s linear infinite;
+}
+.ButtonSearch{
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.ButtonSearch:hover{
+    transform: translateY(2px);
+}
+.ButtonSearch:active{
+    transform: translateY(4px);
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    30% {
+        transform: rotate(30deg);
+    }
+    70%{
+        transform: rotate(-30deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}

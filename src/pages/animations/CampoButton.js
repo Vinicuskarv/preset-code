@@ -1,18 +1,24 @@
 import './CampoButton.css';
 import PreButtons from '../../components/PreButtons';
+import ButtonSearch from '../../components/buttonSearch';
 function CampoButton() {
   return (
     <div className='CampoInfoButtons'>
         <div className='container'>
           <h2>Buttons</h2>
           <div className='KitExple'>
-            <h4>Rounded Buttons</h4>
+            <div className='d-flex'>
+                <h4>Rounded Buttons</h4>
+                <ButtonSearch/>
+            </div>
+            
             <div className='row Rounded'>
             <PreButtons
                 Value= "OUTLINE"
                 Descricao= "OUTLINE"
                 Id = "Rounded1"
             />
+            
             <PreButtons
                 Value= "NORMAL"
                 Descricao="NORMAL"
@@ -41,7 +47,10 @@ function CampoButton() {
           </div>
           </div>
           <div className='KitExple'>
-            <h4>Radius Buttons</h4>
+            <div className='d-flex'>
+                <h4>Radius Buttons</h4>
+                <ButtonSearch/>
+            </div>
             <div className='row Radius'>
             <PreButtons
                 Value= "OUTLINE"
@@ -76,7 +85,11 @@ function CampoButton() {
           </div>
           </div>
           <div className='KitExple'>
-            <h4>Squared Buttons</h4>
+            
+            <div className='d-flex'>
+                <h4>Squared Buttons</h4>
+                <ButtonSearch/>
+            </div>
             <div className='row Squared'>
             <PreButtons
                 Value= "OUTLINE"
@@ -110,8 +123,11 @@ function CampoButton() {
             />
           </div>
           </div>
-          <div className='KitExple'>
-            <h4>Squared With Rounded Corners Buttons</h4>
+          <div className='KitExple'>          
+            <div className='d-flex'>
+                <h4>Squared With Rounded Corners Buttons</h4>
+                <ButtonSearch/>
+            </div>
             <div className='row Corners'>
             <PreButtons
                 Value= "OUTLINE"
