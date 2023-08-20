@@ -21,8 +21,8 @@
 }
 .Rounded #Rounded1{
     background-color: transparent;
-    color:  rgb(98, 183, 183);
-    border: 1px solid rgb(98, 183, 183);
+    color:  rgb(60, 152, 152);
+    border: 1px solid rgb(60, 152, 152);
 }
 .Rounded #Rounded3:hover{
     background-color: rgb(60, 152, 152);

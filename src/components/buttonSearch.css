@@ -30,20 +30,76 @@
         transform: rotate(0deg);
     }
 }
-/* CentralizedDiv.css */
+.IconClose {
+    position: absolute;
+    right: 0px;
+    top: -40px;
+    padding: 3px 15px;
+    border: 0;
+    font-size: 20px;
+    outline: none !important;
+    background-color: rgb(32, 144, 169);
+    color: rgb(255, 255, 255);
+    border-radius: 1px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.562);
+    transition: transform 0.2s, box-shadow 0.2s;
+    z-Index: 1;
+}
+.IconClose:hover{
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.562);
+
+}
+.IconClose:active{
+    transform: translateY(4px);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.562);
+}
 .button-search {
     border: none;
     cursor: pointer;
-  }
+}
   
-  .centered-div {
+.ContainerDiv{
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    display: flex;
     background-color: white;
-    padding: 20px;
+    padding: 0;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
+    font-size: 15px;
+}
+.Divhtml{
+    width:auto; /* Largura da área visível */
+    height: 300px; /* Altura da área visível */
+    overflow-y: scroll;
+}
+.Divcss{
+    width:auto; /* Largura da área visível */
+    height:300px; /* Altura da área visível */
+    overflow-y: scroll;
+}
+@media screen and (max-width:1000px){
+    .ContainerDiv{
+        display: inline;
+    }
+    .Divhtml{
+        height: 150px;
+    }
+}
+@media screen and (max-width:600px){
+    .ContainerDiv{
+       font-size: 12px;
+    }
+    .Divhtml{
+        height: 120px;
+    }
+}
+@media screen and (max-width:400px){
+    .ContainerDiv{
+       font-size: 11px;
+    }
+}
   
