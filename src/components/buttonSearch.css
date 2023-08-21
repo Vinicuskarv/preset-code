@@ -71,14 +71,9 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     font-size: 15px;
 }
-.Divhtml{
-    width:auto; /* Largura da área visível */
-    height: 300px; /* Altura da área visível */
-    overflow-y: scroll;
-}
-.Divcss{
-    width:auto; /* Largura da área visível */
-    height:300px; /* Altura da área visível */
+.Divhtml,.Divcss{
+    width:auto;
+    height: 300px;
     overflow-y: scroll;
 }
 @media screen and (max-width:1000px){

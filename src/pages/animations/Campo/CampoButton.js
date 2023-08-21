@@ -1,15 +1,14 @@
-import './CampoButton.css';
-import PreButtons from '../../components/PreButtons';
-import ButtonSearch from '../../components/buttonSearch';
+import './CampoMaster.css';
+import PreButtons from '../../../components/PreButtons';
+import ButtonSearch from '../../../components/buttonSearch';
 function CampoButton() {
   return (
-    <div className='CampoInfoButtons'>
+    <div className='CampoInfoMaster'>
         <div className='container'>
           <h2>Buttons</h2>
           <div className='KitExple'>
             <div className='d-flex'>
                 <h4>Rounded Buttons</h4>
-                
                 <ButtonSearch
                     Id="Rounded1"
                 />

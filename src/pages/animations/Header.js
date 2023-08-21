@@ -1,5 +1,6 @@
 import './Header.css'
-import CampoButton from './CampoButton'
+import CampoButton from './Campo/CampoButton'
+import CampoTexto from './Campo/CampoTexto'
 function Header() {
   return (
     <div className="ContainerHeaderPrimaria">
@@ -23,7 +24,7 @@ function Header() {
                     <CampoButton/>
                 </div>
                 <div class="tab-pane fade" id="Carousel-tab-pane" role="tabpanel" aria-labelledby="Carousel-tab" tabindex="0">
-                    <CampoButton/>
+                    <CampoTexto/>
                 </div>
                 <div class="tab-pane fade" id="Card-tab-pane" role="tabpanel" aria-labelledby="Card-tab" tabindex="0">
                     <CampoButton/>

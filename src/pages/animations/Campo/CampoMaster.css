@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 
-.CampoInfoButtons{
+.CampoInfoMaster{
     margin: 20px 0;
 }
-.CampoInfoButtons h2 ,.CampoInfoButtons h4{
+.CampoInfoMaster h2 ,.CampoInfoMaster h4{
     font-family: 'Kanit', sans-serif;
 }
-.CampoInfoButtons h2{
+.CampoInfoMaster h2{
     margin: 20px;
+}
+.CampoCode{
+    width:auto;
+    height: 300px;
+    overflow-y: scroll;
 }
