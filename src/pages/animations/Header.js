@@ -10,10 +10,10 @@ function Header() {
                     <button class="nav-link active" id="Buttons-tab" data-bs-toggle="tab" data-bs-target="#Buttons-tab-pane" type="button" role="tab" aria-controls="Buttons-tab-pane" aria-selected="true">Buttons</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="Carousel-tab" data-bs-toggle="tab" data-bs-target="#Carousel-tab-pane" type="button" role="tab" aria-controls="Carousel-tab-pane" aria-selected="false">Carousel</button>
+                    <button class="nav-link" id="Carousel-tab" data-bs-toggle="tab" data-bs-target="#Carousel-tab-pane" type="button" role="tab" aria-controls="Carousel-tab-pane" aria-selected="false">Textos</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="Card-tab" data-bs-toggle="tab" data-bs-target="#Card-tab-pane" type="button" role="tab" aria-controls="Card-tab-pane" aria-selected="false">Card</button>
+                    <button class="nav-link" id="Card-tab" data-bs-toggle="tab" data-bs-target="#Card-tab-pane" type="button" role="tab" aria-controls="Card-tab-pane" aria-selected="false">Cards</button>
                 </li>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="Placeholders-tab" data-bs-toggle="tab" data-bs-target="#Placeholders-tab-pane" type="button" role="tab" aria-controls="Placeholders-tab-pane" aria-selected="false">Placeholders</button>

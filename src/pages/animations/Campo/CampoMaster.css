@@ -14,3 +14,5 @@
     height: 300px;
     overflow-y: scroll;
 }
+
+.gradient svg{font-weight:bold;max-width:600px;height:auto;}
