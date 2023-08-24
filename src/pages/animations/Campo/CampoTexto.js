@@ -135,7 +135,7 @@ const Text1=
 const Text2 = 
 `
 <div class="container">
-    <h1 class="neon">Everything you want is<br>on the other side of fear</h1>
+    <h1 class="neon">Neon Text</h1>
 </div>
 <style>
   body{
@@ -156,6 +156,53 @@ const Text2 =
 }
 </style>
 `
+const Text3 = 
+`
+<div>
+    <h1 class="animated-title">Animated title</h1>
+</div>
+<style>
+.animated-title {
+  animation: colorChange 2s infinite alternate;
+}
+
+@keyframes colorChange {
+  0% {
+    color: rgb(69, 131, 148);
+  }
+  50% {
+   color: #3b3b9a;
+  }
+  100% {
+    color: #a83841;
+  }
+}
+</style>
+`
+
+const Text4 = 
+`
+<div>
+    <h1 class="moving-title">Animated title move</h1>
+</div>
+<style>
+.moving-title {
+  font-size: 2rem;
+  position: relative;
+  animation: moveTitle 3s linear infinite alternate;
+}
+
+@keyframes moveTitle {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 20px;
+  }
+}
+</style>
+`
+
 function CampoTexto() {
   return (
     <div className='CampoInfoMaster'>
@@ -178,6 +225,8 @@ function CampoTexto() {
                 </SyntaxHighlighter>
             </div> 
         </div>
+        <br/>
+        <br/>
         <div className='KitExple'>          
             <div className='d-flex'>
                 <h4>Neon Text Effect</h4>
@@ -194,7 +243,44 @@ function CampoTexto() {
                 </SyntaxHighlighter>
             </div> 
         </div>
+        <br/>
+        <br/>
+        <div className='KitExple'>
+            <div className='d-flex'>
+              <h4>Text Effect Color</h4>
+            </div>      
+            <PreTexto
+              className ='animated-title'
+              value = 'Animated title'
+            />
+        </div>
+        <div className='KitExple'>
+            <div className='CampoCode'>
+                <SyntaxHighlighter language="html" style={coy}>
+                    {Text3}
+                </SyntaxHighlighter>
+            </div> 
+        </div>
+        <br/>
+        <br/>
+        <div className='KitExple'>
+            <div className='d-flex'>
+              <h4>Text Effect Move</h4>
+            </div>      
+            <PreTexto
+              className ='moving-title'
+              value = 'Animated title move'
+            />
+        </div>
+        <div className='KitExple'>
+            <div className='CampoCode'>
+                <SyntaxHighlighter language="html" style={coy}>
+                    {Text4}
+                </SyntaxHighlighter>
+            </div> 
+        </div>
     </div>
+
   );
 }
 
