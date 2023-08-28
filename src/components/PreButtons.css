@@ -167,20 +167,19 @@
     100% {
       color: #a83841;
     }
-  }
-  
-  .moving-title {
+}
+.moving-title {
     font-size: 2rem;
     position: relative;
     animation: moveTitle 3s linear infinite alternate;
-  }
+}
   
-  @keyframes moveTitle {
+@keyframes moveTitle {
     0% {
       left: 0;
     }
     100% {
       left: 20px;
     }
-  }
+}
   
