@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Roboto:wght@100&display=swap');
+.custom-card {
+    width: 440px;
+    border: 1px solid #c1c1c1;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+  }
+  .custom-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .custom-col {
+    flex: 1;
+  }
+  .custom-col-md-4 {
+    flex-basis: calc(40% - 2rem);
+    max-width: calc(40% - 2rem);
+  }
+  .custom-col-md-8 {
+    flex-basis: calc(60% - 2rem);
+    max-width: calc(60% - 2rem);
+  }
+  .custom-img {
+    display: block;
+    width: 100%;
+    height: 220px;
+    border-radius: 0.25rem 0 0 0.25rem;
+    object-fit: cover;
+  }
+  .custom-card-body {
+    padding: 1rem;
+  }
+  .custom-card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  .custom-card-text {
+    margin-bottom: 1rem;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  }
+  @media screen and (max-width: 550px) {
+    .custom-row {
+      display: inline;
+      flex-wrap: none;
+    }
+    .custom-card {
+      max-width: 240px;
+    }
+    .custom-col-md-4,
+    .custom-col-md-8 {
+      max-width: 100%;
+    }
+  }
