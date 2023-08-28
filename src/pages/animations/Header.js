@@ -2,6 +2,7 @@ import './Header.css';
 import CampoButton from './Campo/CampoButton';
 import CampoTexto from './Campo/CampoTexto';
 import CampoCards from './Campo/CampoCards';
+import CampoAnimations from './Campo/CampoAnimations';
 function Header() {
   return (
     <div className="ContainerHeaderPrimaria">
@@ -17,7 +18,7 @@ function Header() {
                     <button class="nav-link" id="Card-tab" data-bs-toggle="tab" data-bs-target="#Card-tab-pane" type="button" role="tab" aria-controls="Card-tab-pane" aria-selected="false">Cards</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="Placeholders-tab" data-bs-toggle="tab" data-bs-target="#Placeholders-tab-pane" type="button" role="tab" aria-controls="Placeholders-tab-pane" aria-selected="false">Placeholders</button>
+                    <button class="nav-link" id="Placeholders-tab" data-bs-toggle="tab" data-bs-target="#Placeholders-tab-pane" type="button" role="tab" aria-controls="Placeholders-tab-pane" aria-selected="false">Animations</button>
                 </li>
             </ul>
             <div class="tab-content" id="myTabContent">
@@ -31,7 +32,7 @@ function Header() {
                     <CampoCards/>
                 </div>
                 <div class="tab-pane fade" id="Placeholders-tab-pane" role="tabpanel" aria-labelledby="Placeholders-tab" tabindex="0">
-                    <CampoButton/>
+                    <CampoAnimations/>
                 </div>
             </div>
         </div>
