@@ -1,0 +1,17 @@
+.CampoP{
+    color: rgb(0, 0, 0);
+    width: 100%;
+    position: relative;
+    animation: moveTextStart 5s linear infinite;
+  }
+  @keyframes moveTextStart {
+  0% {
+    left: 0;
+  }
+  50%{
+    left: 50px;
+  }
+  100% {
+    left: 0px;
+  }
+}
