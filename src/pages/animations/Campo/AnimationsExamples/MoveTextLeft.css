@@ -1,6 +1,6 @@
 .CampoP{
     color: rgb(0, 0, 0);
-    width: 100%;
+    width: 90%;
     position: relative;
     animation: moveTextStart 5s linear infinite;
   }

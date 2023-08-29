@@ -3,7 +3,10 @@ import { coy } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import PreTexto from '../../../components/PreTexto';
 import './CampoMaster.css';
 
-const Text1=
+
+
+function CampoTexto() {
+  const Text1=
 `<body>
   <div class="ModernTyping">
       <h3>Front-end developer.</h3>
@@ -202,8 +205,6 @@ const Text4 =
 }
 </style>
 `
-
-function CampoTexto() {
   return (
     <div className='CampoInfoMaster'>
         <div className='container'>
@@ -215,7 +216,7 @@ function CampoTexto() {
             </div>
             <PreTexto
               className ='EfeitoModerno'
-              value = 'Front-end developer.'
+              value = 'Front-end.'
             />
         </div>
         <div className='KitExple'>
@@ -269,7 +270,7 @@ function CampoTexto() {
             </div>      
             <PreTexto
               className ='moving-title'
-              value = 'Animated title move'
+              value = 'Title Move'
             />
         </div>
         <div className='KitExple'>

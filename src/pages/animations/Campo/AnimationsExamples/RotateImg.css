@@ -1,0 +1,31 @@
+.CampImg{
+    display: flex;
+  }
+  .CampoRotateNegativ,.CampoRotatePositiv{
+    color: rgb(0, 0, 0);
+    width: 30px;
+    margin: 5px;
+    transform: rotate(360deg);
+  }
+  .CampoRotatePositiv{
+    animation: CampoRotatePositiv 5s linear infinite;
+}
+@keyframes CampoRotatePositiv {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+} 
+.CampoRotateNegativ{
+    animation: CampoRotateNegativ 5s linear infinite;
+}
+@keyframes CampoRotateNegativ {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}

@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Roboto:wght@100&display=swap');
 .card {
-    width: 18rem;
+    max-width: 250px;
     border: 1px solid #ccc;
     border-radius: 0.25rem;
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
-    margin: 20px;
     background-color: #fff;
   }
   .card-img-top {
