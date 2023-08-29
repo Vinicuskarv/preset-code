@@ -17,21 +17,7 @@ function CardColor() {
         newColors[index] = { ...newColors[index], [property]: value };
         setColors(newColors);
     };
-
-    const randomColor = () => {
-        const randomHexColor = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
-        return randomHexColor;
-    };
-
-    const handleRandomColor = (index) => {
-        const newColors = [...colors];
-        newColors[index] = {
-            start: randomColor(),
-            end: randomColor()
-        };
-        setColors(newColors);
-    };
-
+   
     const GradientBox = ({ start, end, index }) => (
         <div className='col-6 col-md-4 col-lg-3'>
             <div className="gradient-box" style={{ background: `linear-gradient(to right, ${start}, ${end})` }}>

@@ -39,15 +39,16 @@ const ButtonSearch = ({ Id }) => {
             >
                 <img src={iconSearch} alt="icon Search" />
             </div>
-            <CentralizedDiv isDivVisible={isDivVisible} setIsDivVisible={setIsDivVisible} ref={divRef} Id={Id} />
+            <CentralizedDiv isDivVisible={isDivVisible} setIsDivVisible={setIsDivVisible} ref={divRef} Ide={Id} />
         </>
     );
 };
 
-const CentralizedDiv = React.forwardRef(({ isDivVisible, setIsDivVisible, Id }, ref) => {
+const CentralizedDiv = React.forwardRef(({ isDivVisible, setIsDivVisible, Ide }, ref) => {
+
     let htmlCode = '';
     let cssCode = '';
-    switch (Id) {
+    switch (Ide) {
         case 'Rounded1':
             htmlCode = `
 <body>
@@ -170,6 +171,9 @@ const CentralizedDiv = React.forwardRef(({ isDivVisible, setIsDivVisible, Id }, 
 </style>
                 `;
                 break;
+                default:
+                    console.log("erro")
+                    break;
         
     }
     const [isClosing, setIsClosing] = useState(false);
