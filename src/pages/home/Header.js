@@ -17,7 +17,7 @@ function Header() {
                     <br/>
                     <Link className='ButtomStyle' to="/About">About Us</Link>
                 </div>
-                <div className='CampoUndraw col-8 col-lg-7 '>
+                <div className='CampoUndraw col-12 col-lg-7 '>
                     <img src={undraw} alt="img - undraw_web_devices"/>
                 </div>
             </div>
@@ -37,7 +37,7 @@ function Header() {
                         in website development. Here, you will find pre-configured features to streamline your delivery process.
                     </p>
                 </div>
-                <div className='undraw_booked col-8 col-md-5'>
+                <div className='undraw_booked col-12 col-md-5'>
                     <img src={vtod} alt="img - undraw_booked_re_vtod"/>
                 </div>
             </div>
